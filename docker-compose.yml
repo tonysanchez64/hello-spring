@@ -1,0 +1,7 @@
+version: '3'
+services:
+  java:
+    build: .
+    image: imagejava
+    ports:
+      - "8080:8080"
